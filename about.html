@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html lang="rus">
+
+<head>
+    <title>Контакты</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css"></linkrel>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+</style>
+
+<body>
+    <nav class="navbar">
+        <a href="index.html" class="logo-link">
+            <div class="logo-container">
+                <img src="res/logo.png" alt="Logo">
+                <span class="site-name">Kosch</span>
+            </div>
+        </a>
+        <ul class="nav-links">
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="about.html">О нас</a></li>
+            <li><a href="contacts.html">Контакты</a></li>
+          </ul>
+    </nav>
+    
+    <div class="about-page">
+        <div class="director">
+            <h1 class="about1">О нас</h1>
+            <h2 class="about2">Как мы работаем?</h2>
+            <div class="content-wrapper">
+                <div class="circle">
+                    <img src="res/director.png" alt="director" class="director-img">
+                    <div class="director-text-container">
+                        <p><strong>Тузик Китекетович</strong></br>
+                        директор компании</p>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <p class="main-p">В нашем устройстве 3 милых котенка, которые с легкостью помоют всю вашу посуду за считаные минуты. 
+                        Наш директор лично наблюдает за качеством работы.</p>
+                </div>
+                <div class="button-container">
+                    <form action="contacts.html" target="_self">
+                        <button class="buy-button">Заказать сейчас</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="office">
+            <div class="circle-left"></div>
+            <img src="res/office.png" alt="office" class="office-img">
+            <div class="office-text">
+                <h2>Наш офис</h2>
+                <p>Вы обращаетесь в наш офис для заказа машины, после чего можете забрать ее по адресу г. Челябинск ст. “платформа Зоопарк” или заказать доставку на ваш адрес</p>
+                <form action="contacts.html" target="_self">
+                    <button class="buy-button2">Контакты</button>
+                </form>
+            </div>
+            <div class="video">
+                <h2>Пример работы:</h2>
+                <video muted="muted" controls class="work-video">
+                    <source src="res/work.mp4" type="video/mp4">
+                    Ваш браузер не поддерживает видео тег.
+                </video>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html> 
